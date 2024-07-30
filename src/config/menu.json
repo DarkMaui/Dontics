@@ -1,23 +1,23 @@
 {
   "main": [
     {
-      "name": "Home",
+      "name": "Inicio",
       "url": "/"
     },
     {
-      "name": "About",
+      "name": "¿Quiénes somos?",
       "url": "/about"
     },
     {
-      "name": "Blog",
+      "name": "Tratamientos",
       "url": "/blog"
     },
     {
-      "name": "Features",
+      "name": "Casos Clínicos",
       "url": "/features"
     },
     {
-      "name": "How It Works",
+      "name": "Nuestra Clínica",
       "url": "/how-it-works"
     },
     {
@@ -59,7 +59,7 @@
       ]
     },
     {
-      "name": "Contact",
+      "name": "Contactanos",
       "url": "/contact"
     }
   ],

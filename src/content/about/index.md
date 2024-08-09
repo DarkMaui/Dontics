@@ -1,6 +1,6 @@
 ---
-title: "About"
-page_title: "About our company"
+title: "Nosotros"
+page_title: "Acerca de nuestra clínica"
 buttons:
   - label: Download The Theme
     link: "https://themefisher.com/astro-themes/pinwheel-astro"
@@ -61,10 +61,10 @@ features:
 
 ## members
 members:
-  title: This is who we are
-  description: Donec sollicitudin molestie malesda. Donec sollitudin mol estie ultricies ligula sed magna dictum
+  title: Nuestros Médicos
+  description: Conozca a nuestros médicos, un equipo de expertos en odontología comprometidos con su salud bucal. En nuestra clínica, encontrará profesionales dedicados a ofrecer atención de la más alta calidad, asegurando siempre su comodidad y satisfacción.
   member_list:
-    - name: Eleanor Pena
+    - name: Carlos Sandoval 
       field: Co-founder & COO
       image: "/images/users/user-1.png"
     - name: Bukiakta Bansalo
@@ -83,4 +83,4 @@ members:
       field: Software Engineer
       image: "/images/users/user-3.png"
 ---
-Donec sollicitudin molestie malesda. Donec sollitudin molestie malesuada. Mauris pellentesque nec, egestas non nisi. Cras ultricies ligula sed magna dictum porta. Lorem
+Bienvenidos a Dontics, su clínica dental de confianza en San Pedro Sula. En Dontics, nos enorgullecemos de ofrecer una atención integral y especializada en todas las áreas de la odontología. Nuestro equipo de profesionales altamente capacitados se dedica a proporcionar un cuidado dental de calidad excepcional, utilizando tecnología de vanguardia y técnicas innovadoras.  

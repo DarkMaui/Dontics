@@ -6,7 +6,7 @@
     },
     {
       "name": "¿Quiénes somos?",
-      "url": "/about"
+      "url": "/nosotros"
     },
     {
       "name": "Tratamientos",
@@ -21,44 +21,6 @@
       "url": "/how-it-works"
     },
     {
-      "name": "Pages",
-      "url": "",
-      "hasChildren": true,
-      "children": [
-        {
-          "name": "Career",
-          "url": "/career"
-        },
-
-        {
-          "name": "Integrations",
-          "url": "/integrations"
-        },
-
-        {
-          "name": "Pricing",
-          "url": "/pricing"
-        },
-        {
-          "name": "Sign In",
-          "url": "/signin"
-        },
-
-        {
-          "name": "Elements",
-          "url": "/elements"
-        },
-        {
-          "name": "Changelog",
-          "url": "/changelog"
-        },
-        {
-          "name": "Terms And Conditions",
-          "url": "/terms-and-conditions"
-        }
-      ]
-    },
-    {
       "name": "Contactanos",
       "url": "/contact"
     }
@@ -66,8 +28,8 @@
 
   "footer": [
     {
-      "name": "About",
-      "url": "/about"
+      "name": "¿Quiénes somos?",
+      "url": "/nosotros"
     },
     {
       "name": "Contact",

@@ -17,7 +17,29 @@ export interface NavigationLink {
 const { main }: { main: NavigationLink[] } = menu;
 const { pathname } = Astro.url;
 ---
+<style>
+  .header {
+    transition: background-color 0.3s ease;
+  }
 
+  .header-sticky {
+    background-color: #FFF; /* Change this to the color you want */
+  }
+
+ /*   Additional styles for the sticky header 
+  .header-sticky .nav-link {
+    color: #fff; 
+  } */
+
+ /*  .header-sticky .nav-link.active {
+    color: #ff0;
+  }
+ */
+ /*  .header-sticky .btn {
+    background-color: #fff; 
+    color: #000; 
+  } */
+</style>
 <header class="header">
   <nav class="navbar container">
     <!-- logo -->

@@ -10,7 +10,7 @@ banner:
 
 ##key features
 key_features:
-  title: "Tratamientos Destacados en Dontics"
+  title: "Tratamientos Destacados"
   description: "En ***Dontics***, nos especializamos en ofrecer una amplia gama de tratamientos dentales de calidad. Nuestro compromiso es brindarle una atención personalizada con la tecnología más avanzada, asegurando que cada visita contribuya a su salud bucal y a una sonrisa radiante."
   feature_list:
 
@@ -69,7 +69,7 @@ service:
           image: "/images/sells-by-country.png"
 
   our_service:
-    - title: Tecnología de Vanguardia en Dontics
+    - title: Tecnología de Vanguardia
       desctiption:
       image: "/images/collaboration.png"
       list:

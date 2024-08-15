@@ -83,4 +83,4 @@ members:
       field: Software Engineer
       image: "/images/users/user-3.png"
 ---
-Bienvenidos a Dontics, su clínica dental de confianza en San Pedro Sula. En Dontics, nos enorgullecemos de ofrecer una atención integral y especializada en todas las áreas de la odontología. Nuestro equipo de profesionales altamente capacitados se dedica a proporcionar un cuidado dental de calidad excepcional, utilizando tecnología de vanguardia y técnicas innovadoras.  
+Bienvenidos a <strong><em>Dontics</em></strong>, su clínica dental de confianza en San Pedro Sula. En <strong><em>Dontics</em></strong>, nos enorgullecemos de ofrecer una atención integral y especializada en todas las áreas de la odontología. Nuestro equipo de profesionales altamente capacitados se dedica a proporcionar un cuidado dental de calidad excepcional, utilizando tecnología de vanguardia y técnicas innovadoras.  

@@ -23,7 +23,7 @@ const { pathname } = Astro.url;
   }
 
   .header-sticky {
-    background-color: #FFF; /* Change this to the color you want */
+    background-color: #0F1010; /* Change this to the color you want */
   }
 
  /*   Additional styles for the sticky header 
@@ -35,10 +35,13 @@ const { pathname } = Astro.url;
     color: #ff0;
   }
  */
- /*  .header-sticky .btn {
-    background-color: #fff; 
-    color: #000; 
-  } */
+ .header-sticky .btn {
+  color: #64615A; /* Text color when not sticky */
+}
+.btn {
+  color: #64615A; /* Text color when not sticky */
+}
+
 </style>
 <header class="header">
   <nav class="navbar container">

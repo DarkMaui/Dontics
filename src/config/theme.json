@@ -4,15 +4,16 @@
       "theme_color": {
         "primary": "#7B8E94",
         "secondary": "#CEC6AF",
-        "body": "#EBEBEB",
-        "border": "#EBEBEB",
+        "body": "#20354A",
+        "border": "#64615A",
         "theme_light": "#E5E5E5",
         "theme_dark": "#1a202c"
       },
       "text_color": {
-        "default": "#0F1010",
-        "dark": "#222",
-        "light": "#7B8E94"
+        "default": "#E5E5E5",
+        "dark": "#E5E5E5",
+        "light": "#7B8E94",
+        "gray": "#64615A"
       }
     }
   },

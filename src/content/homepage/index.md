@@ -1,7 +1,7 @@
 ---
 banner:
-  title: "Dontics"
-  content: "Un lugar para mejorar tu sonrisa"
+  title: "🦷"
+  content: "Bienvenidos a Dontics, su referencia en cuidado dental en San Pedro Sula.<br><br>En nuestra clínica, combinamos experiencia y tecnología avanzada para ofrecerle una atención dental de excelencia. Nuestro equipo de profesionales está comprometido con su salud bucal y su bienestar, brindando tratamientos personalizados en un ambiente acogedor. Desde chequeos rutinarios hasta procedimientos especializados, estamos aquí para asegurar que su sonrisa sea saludable y radiante. ¡Descubra la diferencia de una atención dental dedicada y experta con nosotros!"
   image: /images/homepage.jpg
   button:
     label: Download The Theme
@@ -48,7 +48,7 @@ key_features:
 service:
   homepage_tab:
     title: Prevent failure from to impacting your reputation
-    description: Our platform helps you build secure onboarding authentication experiences that retain and engage your users. We build the infrastructure, you can.
+    description: 
     tab_list:
         - title: Habit building essential choose habit
           icon: "lock"  #icon package react-feather-icon [https://feathericons.com/]

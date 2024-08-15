@@ -10,8 +10,8 @@
         "theme_dark": "#1a202c"
       },
       "text_color": {
-        "default": "#E5E5E5",
-        "dark": "#E5E5E5",
+        "default": "#64615A",
+        "dark": "#64615A",
         "light": "#7B8E94",
         "gray": "#64615A"
       }

@@ -7,7 +7,7 @@ const { counter } = Astro.props;
     {
       counter.map((item: any) => (
         <div class="border-border sm:col-6 lg:col-3 px-10 py-10 text-center lg:border-r lg:py-0 last:lg:border-none">
-          <h2>
+          <h2 style={{ color: '#64615A' }}>
             <span class="count" aria-valuenow={item.number}>
               0
             </span>
@@ -20,7 +20,7 @@ const { counter } = Astro.props;
               +
             </span>
           </h2>
-          <p>{item.name}</p>
+          <p style={{ color: '#64615A' }}>{item.name}</p>
         </div>
       ))
     }

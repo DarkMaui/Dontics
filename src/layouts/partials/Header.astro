@@ -20,6 +20,8 @@ const { pathname } = Astro.url;
 <style>
   .header {
     transition: background-color 0.3s ease;
+    color: #E5E5E5;
+    
   }
 
   .header-sticky {
@@ -40,6 +42,9 @@ const { pathname } = Astro.url;
 }
 .btn {
   color: #64615A; /* Text color when not sticky */
+}
+.a {
+  color: #E5E5E5; /* Text color when not sticky */
 }
 
 </style>
@@ -83,9 +88,9 @@ const { pathname } = Astro.url;
         main.map((menu) => (
           <>
             {menu.hasChildren ? (
-              <li class="nav-item nav-dropdown group relative cursor-pointer  dropdown-button">
-                <span
-                  class={`nav-link inline-flex items-center ${
+              <li class="nav-item nav-dropdown group relative cursor-pointer  dropdown-button"  >
+                <span 
+                  class={`nav-link inline-flex items-center${
                     menu.children?.map(({ url }) => url).includes(pathname) ||
                     menu.children
                       ?.map(({ url }) => `${url}/`)
@@ -93,6 +98,7 @@ const { pathname } = Astro.url;
                       ? "active"
                       : ""
                   }`}
+                
                 >
                   {menu.name}
                   <svg class="h-4 w-4 fill-current" viewBox="0 0 20 20">
@@ -102,16 +108,20 @@ const { pathname } = Astro.url;
                 <ul
                   id="dropdown"
                   class="nav-dropdown-list mx-auto hidden duration-300 lg:invisible lg:absolute lg:block lg:h-auto lg:w-[13.5rem] lg:opacity-0 lg:group-hover:visible lg:group-hover:opacity-100"
-                >
+               
+               >
                   {menu.children?.map((child) => (
                     <li class="nav-dropdown-item">
-                      <a
+                      <a 
                         href={child.url}
                         class={`nav-dropdown-link block ${
                           (pathname === `${child.url}/` ||
                             pathname === child.url) &&
                           "text-primary"
-                        }`}
+                          
+                        }`
+                        
+                      }
                       >
                         {child.name}
                       </a>
@@ -120,14 +130,15 @@ const { pathname } = Astro.url;
                 </ul>
               </li>
             ) : (
-              <li class="nav-item">
+              <li class="nav-item" style={{ color: '#E5E5E5' }}>
                 <a
                   href={menu.url}
                   class={`nav-link inline-block lg:block ${
                     (pathname === `${menu.url}/` || pathname === menu.url) &&
                     "active"
                   }`}
-                >
+                  style={{ color: '#E5E5E5' }}
+               >
                   {menu.name}
                 </a>
               </li>

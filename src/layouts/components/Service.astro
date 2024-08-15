@@ -51,10 +51,10 @@ const { homepage_tab, our_service } = service;
             }`}
           >
             <div class="text-container">
-              <h2 class="lg:text-4xl">{item.title}</h2>
-              <p class="mt-4">{item.description}</p>
+              <h2 style={{ color: '#E5E5E5' }}class="lg:text-4xl">{item.title}</h2>
+              <p style={{ color: '#E5E5E5' }} class="mt-4">{item.description}</p>
               {item.button && item.button.enable && (
-                <a class="btn btn-white mt-6" href={item.button.link}>
+                <a style={{ color: '#E5E5E5' }} class="btn btn-white mt-6" href={item.button.link}>
                   {item.button.label}
                 </a>
               )}

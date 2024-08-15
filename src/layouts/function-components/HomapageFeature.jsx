@@ -1,6 +1,19 @@
 import { humanize } from "@/lib/utils/textConverter";
 import * as Icon from "react-feather";
 
+const formatContent = (text) => {
+  const parts = text.split(/(<strong>.*?<\/strong>|\n)/gi);
+  return parts.map((part, index) => {
+    if (part.startsWith("<strong>") && part.endsWith("</strong>")) {
+      return <strong key={index}>{part.replace(/<\/?strong>/g, "")}</strong>;
+    } else if (part === "\n") {
+      return <br key={index} />;
+    } else {
+      return part;
+    }
+  });
+};
+
 const HomapageFeature = ({ feature_list }) => {
   return (
     <div className="key-feature-grid mt-10 grid grid-cols-2 gap-7 md:grid-cols-3 xl:grid-cols-4">
@@ -13,7 +26,7 @@ const HomapageFeature = ({ feature_list }) => {
           >
             <div>
               <h3 className="h4 text-xl lg:text-2xl">{item.title}</h3>
-              <p>{item.content}</p>
+              <p>{formatContent(item.content)}</p>
             </div>
             <span className="icon mt-4">
               <FeatherIcon />

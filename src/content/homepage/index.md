@@ -1,7 +1,7 @@
 ---
 banner:
   title: "🦷"
-  content: "Bienvenidos a Dontics, su referencia en cuidado dental en San Pedro Sula.<br><br>En nuestra clínica, combinamos experiencia y tecnología avanzada para ofrecerle una atención dental de excelencia. Nuestro equipo de profesionales está comprometido con su salud bucal y su bienestar, brindando tratamientos personalizados en un ambiente acogedor. Desde chequeos rutinarios hasta procedimientos especializados, estamos aquí para asegurar que su sonrisa sea saludable y radiante. ¡Descubra la diferencia de una atención dental dedicada y experta con nosotros!"
+  content: "Bienvenidos a <b><i>Dontics</i></b>, su referencia en cuidado dental en San Pedro Sula.<br><br>En nuestra clínica, combinamos experiencia y tecnología avanzada para ofrecerle una atención dental de excelencia. Nuestro equipo de profesionales está comprometido con su salud bucal y su bienestar, brindando tratamientos personalizados en un ambiente acogedor. Desde chequeos rutinarios hasta procedimientos especializados, estamos aquí para asegurar que su sonrisa sea saludable y radiante. ¡Descubra la diferencia de una atención dental dedicada y experta con nosotros!"
   image: /images/homepage.jpg
   button:
     label: Download The Theme
@@ -10,64 +10,75 @@ banner:
 
 ##key features
 key_features:
-  title: "The Highlighting Part Of Our Solution"
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
+  title: "Tratamientos Destacados en Dontics"
+  description: "En ***Dontics***, nos especializamos en ofrecer una amplia gama de tratamientos dentales de calidad. Nuestro compromiso es brindarle una atención personalizada con la tecnología más avanzada, asegurando que cada visita contribuya a su salud bucal y a una sonrisa radiante."
   feature_list:
-    - icon: "map"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Live Caption
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "lock"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Smart Reply
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "link"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Sound Amplifier
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "bell"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Sound Amplifier
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "monitor"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Smart Reply
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "map"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Live Caption
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "link"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Sound Amplifier
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "bell"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Sound Amplifier
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "map"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Smart Reply
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "monitor"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Live Caption
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+    - icon: "coffee"
+      title: General
+      content: "<strong>Revisiones y limpiezas regulares:</strong> Mantenimiento de la salud bucal con chequeos periódicos.\n<strong>Restauraciones dentales:</strong> Empastes y coronas para reparar dientes dañados."
+    - icon: "heart"  #icon package react-feather-icon [https://feathericons.com/]
+      title: Ortodoncia
+      content: "<strong>Brackets tradicionales:</strong> Corrección de la alineación dental con métodos convencionales. \n
+                <strong>Invisalign:</strong> Alineadores transparentes para una corrección discreta y eficaz."
+    - icon: "smile"
+      title: Implantología
+      content: "<strong>Implantes dentales:</strong> Sustitución de dientes perdidos con soluciones permanentes.\n<strong>Injertos óseos:</strong> Preparación del hueso para la colocación de implantes."
+    - icon: "camera"
+      title: Estética
+      content: "<strong>Blanqueamiento dental:</strong> Tratamientos para lograr una sonrisa más blanca y brillante.\n<strong>Carillas de porcelana:</strong> Corrección de imperfecciones estéticas en los dientes frontales."
+
+    - icon: "clock"
+      title: Periodoncia
+      content: "<strong>Tratamiento de enfermedades de las encías:</strong> Prevención y tratamiento de la gingivitis y periodontitis.\n<strong>Limpieza profunda:</strong> Eliminación de placa y sarro debajo de la línea de las encías."
+
+    - icon: "award"
+      title: Endodoncia
+      content: "<strong>Tratamiento de conducto:</strong> Salvación de dientes dañados o infectados mediante la limpieza y sellado del canal radicular."
+
+    - icon: "command"
+      title: Odontopediatría
+      content: "<strong>Atención dental infantil:</strong> Cuidado especializado para los más pequeños, incluyendo sellantes y tratamientos preventivos.\n<strong>Educación y prevención:</strong> Enseñanza de buenos hábitos de higiene bucal desde temprana edad."
+
+    - icon: "scissors"
+      title: Cirugía Oral
+      content: "<strong>Extracción de muelas del juicio:</strong> Procedimientos para remover muelas del juicio problemáticas.\n<strong>Cirugía correctiva:</strong> Soluciones quirúrgicas para problemas estructurales y funcionales."
+    
+
 
 #service
 service:
   homepage_tab:
-    title: Prevent failure from to impacting your reputation
+    title: Tecnología de Vanguardia en Dontics
     description: 
     tab_list:
-        - title: Habit building essential choose habit
+        - title: Radiografías Digitales
           icon: "lock"  #icon package react-feather-icon [https://feathericons.com/]
           image: "/images/sells-by-country.png"
-        - title: Get an overview of Habit Calendars.
+        - title: Escáner Oral
           icon: "clock"  #icon package react-feather-icon [https://feathericons.com/]
           image: "/images/collaboration.png"
-        - title: Start building with Habitify platform
+        - title: Ultrasonido para Limpieza Dental
+          icon: "bell"  #icon package react-feather-icon [https://feathericons.com/]
+          image: "/images/sells-by-country.png"
+        - title: Impresoras 3D
+          icon: "bell"  #icon package react-feather-icon [https://feathericons.com/]
+          image: "/images/sells-by-country.png"
+        - title: Brackets con la Mejor Tecnología
           icon: "bell"  #icon package react-feather-icon [https://feathericons.com/]
           image: "/images/sells-by-country.png"
 
   our_service:
-    - title: Accept payments any country in this whole universe
-      desctiption: Donec sollicitudin molestie malesda. Donec sollitudin molestie malesuada. Mauris pellentesque nec, egestas non nisi. Cras ultricies ligula sed
+    - title: Tecnología de Vanguardia en Dontics
+      desctiption:
       image: "/images/collaboration.png"
       list:
-        - Supporting more than 119 country world
-        - Open transaction with more than currencies
-        - Customer Service with 79 languages
+        - Radiografías Digitales
+        - Escáner Oral
+        - Ultrasonido para Limpieza Dental
+        - Impresoras 3D
+        - Brackets con la Mejor Tecnología
+
     - title: Accountability that works for you
       description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
       video:

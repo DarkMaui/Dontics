@@ -28,7 +28,7 @@ counter:
     number: 20
     messurment: K
     color: "#FEC163"
-    
+
 # Gallery
 gallery:
   title: We started with one single goal Empower entrepreneurs
@@ -57,14 +57,13 @@ features:
       content: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
     - title: Innovation
       content: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
-    
 
 ## members
 members:
   title: Nuestros Médicos
   description: Conozca a nuestros médicos, un equipo de expertos en odontología comprometidos con su salud bucal. En nuestra clínica, encontrará profesionales dedicados a ofrecer atención de la más alta calidad, asegurando siempre su comodidad y satisfacción.
   member_list:
-    - name: Carlos Sandoval 
+    - name: Carlos Sandoval
       field: Co-founder & COO
       image: "/images/users/user-1.png"
     - name: Bukiakta Bansalo
@@ -83,4 +82,5 @@ members:
       field: Software Engineer
       image: "/images/users/user-3.png"
 ---
-Bienvenidos a <strong><em>Dontics</em></strong>, su clínica dental de confianza en San Pedro Sula. En <strong><em>Dontics</em></strong>, nos enorgullecemos de ofrecer una atención integral y especializada en todas las áreas de la odontología. Nuestro equipo de profesionales altamente capacitados se dedica a proporcionar un cuidado dental de calidad excepcional, utilizando tecnología de vanguardia y técnicas innovadoras.  
+
+Bienvenidos a <strong><em>Dontics</em></strong>, su clínica dental de confianza en San Pedro Sula. En <strong><em>Dontics</em></strong>, nos enorgullecemos de ofrecer una atención integral y especializada en todas las áreas de la odontología. Nuestro equipo de profesionales altamente capacitados se dedica a proporcionar un cuidado dental de calidad excepcional, utilizando tecnología de vanguardia y técnicas innovadoras.

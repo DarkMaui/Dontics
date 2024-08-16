@@ -13,14 +13,14 @@ key_features:
   title: "Tratamientos Destacados"
   description: "En ***Dontics***, nos especializamos en ofrecer una amplia gama de tratamientos dentales de calidad. Nuestro compromiso es brindarle una atención personalizada con la tecnología más avanzada, asegurando que cada visita contribuya a su salud bucal y a una sonrisa radiante."
   feature_list:
-
     - icon: "coffee"
       title: General
       content: "<strong>Revisiones y limpiezas regulares:</strong> Mantenimiento de la salud bucal con chequeos periódicos.\n<strong>Restauraciones dentales:</strong> Empastes y coronas para reparar dientes dañados."
-    - icon: "heart"  #icon package react-feather-icon [https://feathericons.com/]
+    - icon: "heart" #icon package react-feather-icon [https://feathericons.com/]
       title: Ortodoncia
-      content: "<strong>Brackets tradicionales:</strong> Corrección de la alineación dental con métodos convencionales. \n
-                <strong>Invisalign:</strong> Alineadores transparentes para una corrección discreta y eficaz."
+      content:
+        "<strong>Brackets tradicionales:</strong> Corrección de la alineación dental con métodos convencionales. \n
+        <strong>Invisalign:</strong> Alineadores transparentes para una corrección discreta y eficaz."
     - icon: "smile"
       title: Implantología
       content: "<strong>Implantes dentales:</strong> Sustitución de dientes perdidos con soluciones permanentes.\n<strong>Injertos óseos:</strong> Preparación del hueso para la colocación de implantes."
@@ -43,30 +43,28 @@ key_features:
     - icon: "scissors"
       title: Cirugía Oral
       content: "<strong>Extracción de muelas del juicio:</strong> Procedimientos para remover muelas del juicio problemáticas.\n<strong>Cirugía correctiva:</strong> Soluciones quirúrgicas para problemas estructurales y funcionales."
-    
-
 
 #service
 service:
   homepage_tab:
     title: Tecnología de Vanguardia en Dontics
-    description: 
+    description:
     tab_list:
-        - title: Radiografías Digitales
-          icon: "lock"  #icon package react-feather-icon [https://feathericons.com/]
-          image: "/images/sells-by-country.png"
-        - title: Escáner Oral
-          icon: "clock"  #icon package react-feather-icon [https://feathericons.com/]
-          image: "/images/collaboration.png"
-        - title: Ultrasonido para Limpieza Dental
-          icon: "bell"  #icon package react-feather-icon [https://feathericons.com/]
-          image: "/images/sells-by-country.png"
-        - title: Impresoras 3D
-          icon: "bell"  #icon package react-feather-icon [https://feathericons.com/]
-          image: "/images/sells-by-country.png"
-        - title: Brackets con la Mejor Tecnología
-          icon: "bell"  #icon package react-feather-icon [https://feathericons.com/]
-          image: "/images/sells-by-country.png"
+      - title: Radiografías Digitales
+        icon: "lock" #icon package react-feather-icon [https://feathericons.com/]
+        image: "/images/sells-by-country.png"
+      - title: Escáner Oral
+        icon: "clock" #icon package react-feather-icon [https://feathericons.com/]
+        image: "/images/collaboration.png"
+      - title: Ultrasonido para Limpieza Dental
+        icon: "bell" #icon package react-feather-icon [https://feathericons.com/]
+        image: "/images/sells-by-country.png"
+      - title: Impresoras 3D
+        icon: "bell" #icon package react-feather-icon [https://feathericons.com/]
+        image: "/images/sells-by-country.png"
+      - title: Brackets con la Mejor Tecnología
+        icon: "bell" #icon package react-feather-icon [https://feathericons.com/]
+        image: "/images/sells-by-country.png"
 
   our_service:
     - title: Tecnología de Vanguardia
